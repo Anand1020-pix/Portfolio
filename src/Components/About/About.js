@@ -66,7 +66,7 @@ function About() {
       <ParallaxText baseVelocity={5}>ME</ParallaxText>
     </section>
     
-      <div className=" py-5 md:py-14 container mx-auto flex flex-col h-full  items-left text-white  font-bold tracking-widest text-base  md:text-4xl text-justify   ">
+      <div className=" py-10 md:py-14 container mx-auto flex flex-col h-full  items-left text-white  font-bold tracking-widest text-xl  md:text-4xl text-justify   ">
     <p className="overflow-auto text-justify  px-10 font-medium size- ">
      I thrive as a freelance developer specializing in crafting cutting-edge websites, web applications, and mobile apps. <br></br>
      With a knack for leading teams to triumph and consistently delivering top-notch results on time and within budget, I'm on the lookout for an exhilarating opportunity to channel my skills and experience into projects that leave a lasting impact.<br></br>

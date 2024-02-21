@@ -86,7 +86,7 @@ function Skillslist() {
       <ParallaxText baseVelocity={-5}  >TECHNICAL</ParallaxText>
       <ParallaxText baseVelocity={5}>SKILLS</ParallaxText>
     </section>
-    <div className="grid w-full flex-wrap justify-center ">
+    <div className="grid w-full flex-wrap justify-center py-8">
     <div className="grid grid-cols-3 md:grid-cols-5 gap-4 md:gap-2 p-2 md:p-10">
     {Object.keys(logos).map((item, index) => (
       <div key={index} className=" flex justify-center items-center w-24 h-20 md:h-44 md:w-40 bg-transparent border border-gray-300 hover:bg-gray-200 p-4 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">

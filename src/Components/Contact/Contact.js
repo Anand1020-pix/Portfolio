@@ -6,10 +6,10 @@ function Contact() {
   return (
 
     
-<a  class="  block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<a  class=" text-center block w-full  p-10 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Contact Me</h5>
-<div className="grid grid-cols-3 md:grid-cols-5 gap-4 px-10" >
+<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  pb-4">Contact Me</h5>
+<div className="grid grid-cols-3 md:grid-cols-5 gap-4 px-10 items-center pr-5 " >
 <a href="mailto: anandmadhavan10201@gmail.com"><img src={gmail}   alt="Gmail" /></a>
       
       <a href="https://github.com/Anand1020-pix" target="_blank" rel="noopener noreferrer">
