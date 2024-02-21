@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.896f9c26.css",
+    "main.js": "/Portfolio/static/js/main.f76b9f14.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/banner-foreground.png": "/Portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
+    "static/media/banner-background.jpg": "/Portfolio/static/media/banner-background.825d694bb735c27e6ce5.jpg",
+    "static/media/Mongodb.png": "/Portfolio/static/media/Mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/Firebase.png": "/Portfolio/static/media/Firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/Thailwindcss.png": "/Portfolio/static/media/Thailwindcss.3549d9e451d7abb96934.png",
+    "static/media/Threejs.png": "/Portfolio/static/media/Threejs.7c862b1bad8407d307b0.png",
+    "static/media/nmap.png": "/Portfolio/static/media/nmap.adb327713afe1a4db8dd.png",
+    "static/media/Nodejs.png": "/Portfolio/static/media/Nodejs.b90204bbe91cbb684b4c.png",
+    "static/media/Wordpress.png": "/Portfolio/static/media/Wordpress.677ef4544cab80a0c451.png",
+    "static/media/Bootstrap.png": "/Portfolio/static/media/Bootstrap.c5b2fc44d37fd3864947.png",
+    "static/media/Flask.png": "/Portfolio/static/media/Flask.5c50c9b881f538b836fb.png",
+    "static/media/Burpsuite.png": "/Portfolio/static/media/Burpsuite.4b950d7abea73acf6a0e.png",
+    "static/media/Metasploit.png": "/Portfolio/static/media/Metasploit.4a2834cd2a564c8d12f8.png",
+    "static/media/C.png": "/Portfolio/static/media/C.83dfa097dfa94f707a41.png",
+    "static/media/Express.png": "/Portfolio/static/media/Express.04e4743fbd704db71ed7.png",
+    "static/media/C++.png": "/Portfolio/static/media/C++.1240ce157b70fb399c6c.png",
+    "static/media/Reactjs.png": "/Portfolio/static/media/Reactjs.f3e576ba08e6be927148.png",
+    "static/media/aircrack-ng.jpg": "/Portfolio/static/media/aircrack-ng.459d4be55b101a25c651.jpg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/framer-motion.svg": "/Portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
+    "main.896f9c26.css.map": "/Portfolio/static/css/main.896f9c26.css.map",
+    "main.f76b9f14.js.map": "/Portfolio/static/js/main.f76b9f14.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.896f9c26.css",
+    "static/js/main.f76b9f14.js"
+  ]
+}
