@@ -60,7 +60,7 @@ function Projects() {
     const projects = [
       { title: 'IoT:Sensor Data Monitoring System', description: 'The Sensor Data Monitoring System repository is a project that collects and monitors sensor data using an Arduino Uno, TDS sensor, water temperature sensor, and three water flow sensors. It then displays the data in real-time on a Flutter application.'
       , link: 'https://github.com/Anand1020-pix/IOT' },
-      { title: 'Hey Auto', description:'Auto is a React Native app designed to digitalize auto taxi services, utilizing Firebase as the backend. It displays available auto services, enhancing convenience for users seeking transportation options.', 
+      { title: 'Hey Auto', description:' Hey Auto is a React Native app designed to digitalize auto taxi services, utilizing Firebase as the backend. It displays available auto services, enhancing convenience for users seeking transportation options.', 
       link: 'https://github.com/Anand1020-pix/HeyAuto' },
       { title: 'Face Filter', description:'The Face Filter project utilizes TensorFlow.js and the Face Landmarks Detection model to track faces in webcam video and apply filters in real-time. Users can capture photos with filters and view them later', 
       link: 'https://github.com/Anand1020-pix/facefilter_' },
