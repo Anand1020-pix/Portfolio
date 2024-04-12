@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.20096a38.css",
-    "main.js": "/Portfolio/static/js/main.0ee52876.js",
+    "main.css": "/Portfolio/static/css/main.3e8a89e3.css",
+    "main.js": "/Portfolio/static/js/main.472a04c1.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/banner-foreground.png": "/Portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
     "static/media/banner-background.jpg": "/Portfolio/static/media/banner-background.825d694bb735c27e6ce5.jpg",
@@ -23,12 +23,12 @@
     "static/media/aircrack-ng.jpg": "/Portfolio/static/media/aircrack-ng.459d4be55b101a25c651.jpg",
     "index.html": "/Portfolio/index.html",
     "static/media/framer-motion.svg": "/Portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
-    "main.20096a38.css.map": "/Portfolio/static/css/main.20096a38.css.map",
-    "main.0ee52876.js.map": "/Portfolio/static/js/main.0ee52876.js.map",
+    "main.3e8a89e3.css.map": "/Portfolio/static/css/main.3e8a89e3.css.map",
+    "main.472a04c1.js.map": "/Portfolio/static/js/main.472a04c1.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20096a38.css",
-    "static/js/main.0ee52876.js"
+    "static/css/main.3e8a89e3.css",
+    "static/js/main.472a04c1.js"
   ]
 }
