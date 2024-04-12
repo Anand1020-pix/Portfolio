@@ -80,7 +80,7 @@ function Projects() {
         <div key={index} className="flex flex-col items-center p-4 bg-transparent hover:text-black hover:bg-gray-200  rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
           <h2 className="mb-4 text-lg font-bold">{project.title}</h2>
           <p className="mb-4 w-full h-32 md:h-64 object-cover    px-10 font-medium text-center " > {project.description}</p>
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Know More</a>
+          <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-4 py-5 bg-blue-500 text-white rounded hover:bg-blue-700 object-cover ">Know More</a>
         </div>
       ))}
     </div>
