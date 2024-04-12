@@ -15,7 +15,7 @@ function App() {
   return (
    <div>
 
-      <Parallax pages={4.5} style={{ backgroundColor: 'black', top: '0', left: '0'}} class="animation" >
+      <Parallax pages={3.8} style={{ backgroundColor: 'black', top: '0', left: '0'}} class="animation" >
         <ParallaxLayer offset={0} speed={0.25}>
           <div class="animation_layer parallax" id="artback"></div>
         </ParallaxLayer>
