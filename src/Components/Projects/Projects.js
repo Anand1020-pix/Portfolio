@@ -63,7 +63,7 @@ function Projects() {
       { title: 'Hey Auto', description:'Auto is a React Native app designed to digitalize auto taxi services, utilizing Firebase as the backend. It displays available auto services, enhancing convenience for users seeking transportation options.', 
       link: 'https://github.com/Anand1020-pix/HeyAuto' },
       { title: 'Face Filter', description:'The Face Filter project utilizes TensorFlow.js and the Face Landmarks Detection model to track faces in webcam video and apply filters in real-time. Users can capture photos with filters and view them later', 
-      link: 'https://github.com/Anand1020-pix/facefilter' },
+      link: 'https://github.com/Anand1020-pix/facefilter_' },
     ];
 
   return (
