@@ -58,12 +58,10 @@ function Projects() {
     );
   }
     const projects = [
-      { title: 'IoT:Sensor Data Monitoring System', description: 'The Sensor Data Monitoring System repository is a project that collects and monitors sensor data using an Arduino Uno, TDS sensor, water temperature sensor, and three water flow sensors. It then displays the data in real-time on a Flutter application.'
+      { title: 'IoT:Sensor Data Monitoring System', description: 'Arduino-based water sensor monitoring system'
       , link: 'https://github.com/Anand1020-pix/IOT' },
-      { title: 'Hey Auto', description:' Hey Auto is a React Native app designed to digitalize auto taxi services, utilizing Firebase as the backend. It displays available auto services, enhancing convenience for users seeking transportation options.', 
-      link: 'https://github.com/Anand1020-pix/HeyAuto' },
-      { title: 'Face Filter', description:'The Face Filter project utilizes TensorFlow.js and the Face Landmarks Detection model to track faces in webcam video and apply filters in real-time. Users can capture photos with filters and view them later', 
-      link: 'https://github.com/Anand1020-pix/facefilter_' },
+      { title: 'Hey Auto', description:' CDAS - Crime Detection and Surveillance System', 
+      link: 'https://github.com/Anand1020-pix/CDAS' },
     ];
 
   return (
@@ -73,8 +71,8 @@ function Projects() {
       <ParallaxText baseVelocity={-5}  >Projects</ParallaxText>
     </section>
     
-    <div>
-    <div className=" text-white grid  md:grid-cols-3 gap-4  px-6 ">
+    <div className="h-full" >
+    <div className=" text-white grid  md:grid-cols-3 gap-2  px-6  h-full">
   
       {projects.map((project, index) => (
         <div key={index} className="flex flex-col items-center p-4 bg-transparent hover:text-black hover:bg-gray-200  rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">

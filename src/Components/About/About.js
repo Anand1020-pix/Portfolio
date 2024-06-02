@@ -68,9 +68,7 @@ function About() {
     
       <div className=" py-10 md:py-14 container mx-auto flex flex-col h-full  items-left text-white  font-bold tracking-widest text-xl  md:text-4xl text-justify   ">
     <p className=" text-justify  px-10 font-medium size- ">
-     I thrive as a freelance developer specializing in crafting cutting-edge websites, web applications, and mobile apps. <br></br>
-     With a knack for leading teams to triumph and consistently delivering top-notch results on time and within budget, I'm on the lookout for an exhilarating opportunity to channel my skills and experience into projects that leave a lasting impact.<br></br>
-      As I venture into my final year of Computer Science and Engineering at Nehru College of Engineering & Research Centre, I dive deep into the realm of cybersecurity, exploring its intricacies as a passionate security researcher. Let's innovate and make waves together!
+    I am a freelance developer with a track record in creating cutting-edge websites, web apps, and mobile apps, consistently delivering high-quality results on time and within budget. As I enter my final year of Computer Science and Engineering at Nehru College of Engineering & Research Centre, my focus has shifted to cybersecurity. I am exploring its complexities as a passionate security researcher. I am eager to combine my development expertise with my growing knowledge in cybersecurity to take on challenging and impactful projects.
     </p>
 </div>
 

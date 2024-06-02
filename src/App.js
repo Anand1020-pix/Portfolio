@@ -15,7 +15,7 @@ function App() {
   return (
    <div>
 
-      <Parallax pages={4.6} style={{ backgroundColor: 'black', top: '0', left: '0'}} class="animation" >
+      <Parallax pages={3.4} style={{ backgroundColor: 'black', top: '0', left: '0'}} class="animation" >
         <ParallaxLayer offset={0} speed={0.25}>
           <div class="animation_layer parallax" id="artback"></div>
         </ParallaxLayer>
@@ -31,18 +31,18 @@ function App() {
 
             <About />
           </div>
+          <div>
+            <Projects />
+          </div>
 
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.25} style={{ height: '100%' }}>
-          <div id='Projects'>
+          <div >
           
             <Skillslist/>
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={0.25} style={{ height: '100%' }}>
-          <div>
-            <Projects />
-          </div>
           <div id='Contact'>
           <Contact />
           </div>
