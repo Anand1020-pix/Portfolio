@@ -9,6 +9,8 @@ import {
   useAnimationFrame
 } from "framer-motion";
 import { wrap } from "@motionone/utils";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 function Projects() {
@@ -58,9 +60,9 @@ function Projects() {
     );
   }
     const projects = [
-      { title: 'IoT:Sensor Data Monitoring System', description: 'Arduino-based water sensor monitoring system'
+      { title: 'IoT:SDMS', description: 'Arduino-based water sensor monitoring system'
       , link: 'https://github.com/Anand1020-pix/IOT' },
-      { title: 'Hey Auto', description:' CDAS - Crime Detection and Surveillance System', 
+      { title: 'CDAS', description:' CDAS - Crime Detection and Surveillance System', 
       link: 'https://github.com/Anand1020-pix/CDAS' },
     ];
 
@@ -72,16 +74,15 @@ function Projects() {
     </section>
     
     <div className="h-full" >
-    <div className=" text-white grid  md:grid-cols-3 gap-2  px-6  h-full">
-  
-      {projects.map((project, index) => (
-        <div key={index} className="flex flex-col items-center p-4 bg-transparent hover:text-black hover:bg-gray-200  rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <h2 className="mb-4 text-lg font-bold">{project.title}</h2>
-          <p className="mb-4 w-full h-42 md:h-64 object-cover    px-10 font-medium text-center " > {project.description}</p>
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-4 py-5 bg-blue-500 text-white rounded hover:bg-blue-700 object-cover ">Know More</a>
+    <Carousel showThumbs={false} className="h-full sm:p-20 p-10">
+    {projects.map((project, index) => (
+        <div key={index} className="flex flex-col items-center p-4 bg-transparent text-white hover:text-black hover:bg-gray-200  rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <h2 className="mb-4 text-lg font-bold ">{project.title}</h2>
+            <p className="mb-4 w-full h-42 md:h-64 object-cover px-10 font-medium text-center " > {project.description}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-4 py-5 bg-blue-500 text-white rounded hover:bg-blue-700 object-cover ">Know More</a>
         </div>
-      ))}
-    </div>
+    ))}
+</Carousel>
     </div>
 
     </div>
